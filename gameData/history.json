@@ -1,7 +1,15 @@
 {
-    "gamesPlayed": 0,
+    "gamesPlayed": 1,
     "gamesWon": 0,
     "gamesLost": 0,
-    "movesPlayed": 0,
-    "playersHistory": []
+    "movesPlayed": 1,
+    "playersHistory": [
+        {
+            "movesPlayed": 1,
+            "gamesWon": 0,
+            "gamesLost": 0,
+            "gamesCreated": 1,
+            "user": "danicruz0415"
+        }
+    ]
 }
