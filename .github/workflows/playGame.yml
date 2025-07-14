@@ -1,0 +1,27 @@
+# Plays the game using the issue title as a command
+name: Play Game
+on:
+  issues:
+    types:
+      - opened
+jobs:
+  play:
+    if: startsWith(github.event.issue.title, 'Minesweeper::')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update README.md
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          REPO_OWNER: ${{ github.repository_owner }}
+          REPO_NAME: ${{ github.event.repository.name }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node dist/index.js
+      - name: Commit change & Push
+        run: |
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -am "bot: updated README.md"
+            git push
