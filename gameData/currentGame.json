@@ -2,10 +2,10 @@
     "width": 9,
     "height": 9,
     "mineCount": 10,
-    "status": "running",
+    "status": "lost",
     "flagCount": 0,
-    "sweepCount": 1,
-    "timeCounter": 1,
+    "sweepCount": 2,
+    "timeCounter": 2,
     "cellCount": 81,
     "board": [
         [
@@ -282,7 +282,7 @@
             {
                 "isMine": true,
                 "isFlagged": false,
-                "isSweeped": false,
+                "isSweeped": true,
                 "neighbourMineCount": 2,
                 "x": 6,
                 "y": 3

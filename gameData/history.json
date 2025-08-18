@@ -1,8 +1,8 @@
 {
     "gamesPlayed": 1,
     "gamesWon": 0,
-    "gamesLost": 0,
-    "movesPlayed": 2,
+    "gamesLost": 1,
+    "movesPlayed": 3,
     "playersHistory": [
         {
             "movesPlayed": 1,
@@ -12,9 +12,9 @@
             "user": "danicruz0415"
         },
         {
-            "movesPlayed": 1,
+            "movesPlayed": 2,
             "gamesWon": 0,
-            "gamesLost": 0,
+            "gamesLost": 1,
             "gamesCreated": 0,
             "user": "carmabe1"
         }
