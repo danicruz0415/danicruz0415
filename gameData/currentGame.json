@@ -2,10 +2,10 @@
     "width": 9,
     "height": 9,
     "mineCount": 10,
-    "status": "lost",
+    "status": "new",
     "flagCount": 0,
-    "sweepCount": 2,
-    "timeCounter": 2,
+    "sweepCount": 0,
+    "timeCounter": 0,
     "cellCount": 81,
     "board": [
         [
@@ -37,7 +37,7 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 3,
                 "y": 0
             },
@@ -45,7 +45,7 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 4,
                 "y": 0
             },
@@ -53,7 +53,7 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 5,
                 "y": 0
             },
@@ -69,15 +69,15 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 7,
                 "y": 0
             },
             {
-                "isMine": true,
+                "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 8,
                 "y": 0
             }
@@ -111,24 +111,8 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 3,
-                "y": 1
-            },
-            {
-                "isMine": true,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 4,
-                "y": 1
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 5,
                 "y": 1
             },
             {
@@ -136,6 +120,22 @@
                 "isFlagged": false,
                 "isSweeped": false,
                 "neighbourMineCount": 0,
+                "x": 4,
+                "y": 1
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 5,
+                "y": 1
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
                 "x": 6,
                 "y": 1
             },
@@ -143,7 +143,7 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 7,
                 "y": 1
             },
@@ -151,7 +151,7 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 8,
                 "y": 1
             }
@@ -161,7 +161,7 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 0,
                 "y": 2
             },
@@ -169,7 +169,7 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 1,
                 "y": 2
             },
@@ -185,83 +185,9 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 3,
-                "y": 2
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 4,
-                "y": 2
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": true,
-                "neighbourMineCount": 2,
-                "x": 5,
-                "y": 2
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 6,
-                "y": 2
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 2,
-                "x": 7,
-                "y": 2
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 8,
-                "y": 2
-            }
-        ],
-        [
-            {
-                "isMine": true,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 0,
-                "y": 3
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 1,
-                "y": 3
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 0,
-                "x": 2,
-                "y": 3
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
                 "neighbourMineCount": 0,
                 "x": 3,
-                "y": 3
+                "y": 2
             },
             {
                 "isMine": false,
@@ -269,155 +195,7 @@
                 "isSweeped": false,
                 "neighbourMineCount": 0,
                 "x": 4,
-                "y": 3
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 5,
-                "y": 3
-            },
-            {
-                "isMine": true,
-                "isFlagged": false,
-                "isSweeped": true,
-                "neighbourMineCount": 2,
-                "x": 6,
-                "y": 3
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 3,
-                "x": 7,
-                "y": 3
-            },
-            {
-                "isMine": true,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 2,
-                "x": 8,
-                "y": 3
-            }
-        ],
-        [
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 2,
-                "x": 0,
-                "y": 4
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 2,
-                "x": 1,
-                "y": 4
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 2,
-                "y": 4
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 0,
-                "x": 3,
-                "y": 4
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 0,
-                "x": 4,
-                "y": 4
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 5,
-                "y": 4
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 2,
-                "x": 6,
-                "y": 4
-            },
-            {
-                "isMine": true,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 3,
-                "x": 7,
-                "y": 4
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 2,
-                "x": 8,
-                "y": 4
-            }
-        ],
-        [
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 0,
-                "y": 5
-            },
-            {
-                "isMine": true,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 1,
-                "y": 5
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 2,
-                "y": 5
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 0,
-                "x": 3,
-                "y": 5
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 0,
-                "x": 4,
-                "y": 5
+                "y": 2
             },
             {
                 "isMine": false,
@@ -425,97 +203,23 @@
                 "isSweeped": false,
                 "neighbourMineCount": 0,
                 "x": 5,
-                "y": 5
+                "y": 2
             },
             {
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 6,
-                "y": 5
+                "y": 2
             },
             {
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 7,
-                "y": 5
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 8,
-                "y": 5
-            }
-        ],
-        [
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 0,
-                "y": 6
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 1,
-                "y": 6
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 2,
-                "y": 6
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 3,
-                "y": 6
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 4,
-                "y": 6
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 2,
-                "x": 5,
-                "y": 6
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 6,
-                "y": 6
-            },
-            {
-                "isMine": false,
-                "isFlagged": false,
-                "isSweeped": false,
-                "neighbourMineCount": 1,
-                "x": 7,
-                "y": 6
+                "y": 2
             },
             {
                 "isMine": false,
@@ -523,7 +227,81 @@
                 "isSweeped": false,
                 "neighbourMineCount": 0,
                 "x": 8,
-                "y": 6
+                "y": 2
+            }
+        ],
+        [
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 0,
+                "y": 3
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 1,
+                "y": 3
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 2,
+                "y": 3
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 3,
+                "y": 3
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 4,
+                "y": 3
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 5,
+                "y": 3
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 6,
+                "y": 3
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 7,
+                "y": 3
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 8,
+                "y": 3
             }
         ],
         [
@@ -533,6 +311,228 @@
                 "isSweeped": false,
                 "neighbourMineCount": 0,
                 "x": 0,
+                "y": 4
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 1,
+                "y": 4
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 2,
+                "y": 4
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 3,
+                "y": 4
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 4,
+                "y": 4
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 5,
+                "y": 4
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 6,
+                "y": 4
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 7,
+                "y": 4
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 8,
+                "y": 4
+            }
+        ],
+        [
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 0,
+                "y": 5
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 1,
+                "y": 5
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 2,
+                "y": 5
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 3,
+                "y": 5
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 4,
+                "y": 5
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 5,
+                "y": 5
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 6,
+                "y": 5
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 7,
+                "y": 5
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 8,
+                "y": 5
+            }
+        ],
+        [
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 0,
+                "y": 6
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 1,
+                "y": 6
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 2,
+                "y": 6
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 3,
+                "y": 6
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 4,
+                "y": 6
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 5,
+                "y": 6
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 6,
+                "y": 6
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 7,
+                "y": 6
+            },
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 8,
+                "y": 6
+            }
+        ],
+        [
+            {
+                "isMine": false,
+                "isFlagged": false,
+                "isSweeped": false,
+                "neighbourMineCount": 0,
+                "x": 0,
                 "y": 7
             },
             {
@@ -555,15 +555,15 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 3,
                 "y": 7
             },
             {
-                "isMine": true,
+                "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 4,
                 "y": 7
             },
@@ -571,15 +571,15 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 2,
+                "neighbourMineCount": 0,
                 "x": 5,
                 "y": 7
             },
             {
-                "isMine": true,
+                "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 6,
                 "y": 7
             },
@@ -587,7 +587,7 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 2,
+                "neighbourMineCount": 0,
                 "x": 7,
                 "y": 7
             },
@@ -595,7 +595,7 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 8,
                 "y": 7
             }
@@ -629,7 +629,7 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 3,
                 "y": 8
             },
@@ -637,7 +637,7 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 4,
                 "y": 8
             },
@@ -645,7 +645,7 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 2,
+                "neighbourMineCount": 0,
                 "x": 5,
                 "y": 8
             },
@@ -653,7 +653,7 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 6,
                 "y": 8
             },
@@ -661,15 +661,15 @@
                 "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 2,
+                "neighbourMineCount": 0,
                 "x": 7,
                 "y": 8
             },
             {
-                "isMine": true,
+                "isMine": false,
                 "isFlagged": false,
                 "isSweeped": false,
-                "neighbourMineCount": 1,
+                "neighbourMineCount": 0,
                 "x": 8,
                 "y": 8
             }
