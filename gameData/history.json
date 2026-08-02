@@ -2,7 +2,7 @@
     "gamesPlayed": 2,
     "gamesWon": 0,
     "gamesLost": 1,
-    "movesPlayed": 4,
+    "movesPlayed": 5,
     "playersHistory": [
         {
             "movesPlayed": 2,
@@ -17,6 +17,13 @@
             "gamesLost": 1,
             "gamesCreated": 0,
             "user": "carmabe1"
+        },
+        {
+            "movesPlayed": 1,
+            "gamesWon": 0,
+            "gamesLost": 0,
+            "gamesCreated": 0,
+            "user": "brayanlopez"
         }
     ]
 }
